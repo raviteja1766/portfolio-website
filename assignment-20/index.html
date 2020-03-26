@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Weather</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <style type="text/css">
+      body,
+      p,
+      h2 {
+        margin: 0px;
+        font-family: verdana;
+      }
+
+      body {
+        max-width: 637px;
+        margin: 90px auto 0px auto;
+      }
+
+      .flexbox {
+        height: 400px;
+        width: 100%;
+        background: #181818;
+        display: flex;
+        border-radius: 25px;
+
+      }
+
+      .sec1 {
+        width: 45%;
+        background-image: url("assets/background-image.jpeg");
+        border-radius: 25px 25px 25px 25px;
+      }
+
+      .section {
+        width: 100%;
+        height: 100%;
+        background-image: linear-gradient(135deg, rgba(114, 237, 242, 0.8), rgba(81, 81, 229, 0.8));
+        border-radius: 25px 25px 25px 25px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+      }
+
+      .part {
+        margin-left: 5%;
+        margin-right: 5%;
+      }
+
+      .part1>p {
+        padding: 2px 0px 10px 0px;
+      }
+
+      /*.part1 {
+        margin-top: 7%;
+      }
+
+      .part2 {
+        margin-bottom: 7%;
+      }*/
+
+      .subpart {
+        display: flex;
+      }
+
+      .subpart p {
+        padding-left: 5px;
+      }
+
+      .part2>img {
+        width: 60px;
+      }
+
+      .big {
+        font-size: 60px;
+        font-weight: bold;
+      }
+
+      .part2>p {
+        font-weight: bold;
+      }
+
+      .sec2 {
+        width: 55%;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+      }
+
+      .inner1 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .inner1 p {
+        padding: 10px 0px;
+      }
+
+      .common {
+        display: flex;
+        justify-content: space-between;
+      }
+
+      .bold {
+        font-weight: bold;
+      }
+
+      .inner2 {
+        display: flex;
+      }
+
+      .subinner {
+        flex-grow: 1;
+        text-align: center;
+        padding: 10px;
+      }
+
+      .special {
+        background: white;
+        color: black;
+        border-radius: 15px;
+      }
+
+      .inner3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-image: linear-gradient(135deg, #72edf2 10%, #5151e5 100%);
+        border-radius: 10px;
+        padding: 7px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <!---left--->
+      <div class="sec1 item">
+        <div class="section">
+          <div class="part1 part">
+            <h2>Friday</h2>
+            <p>31 Jan 2020</p>
+            <div class="subpart">
+              <img src="assets/location.svg">
+              <p>Kurnool</p>
+            </div>
+          </div>
+          <div class="part2 part">
+            <img src="assets/sun-white.svg">
+            <p class="big">29<sup>o</sup>C</p>
+            <p>Sunny</p>
+          </div>
+        </div>
+      </div>
+      <!----right----->
+      <div class="sec2 item">
+        <div class="inner1 part">
+          <div class="p1 common">
+            <p class="bold">PRECIPITATION</p>
+            <p>0 %</p>
+          </div>
+          <div class="p2 common">
+            <p class="bold">HUMIDITY</p>
+            <p>34 %</p>
+          </div>
+          <div class="p3 common">
+            <p class="bold">WIND</p>
+            <p>0 km/h</p>
+          </div>
+        </div>
+        <div class="inner2 part">
+          <div class="subinner special">
+            <img src="assets/sun-black.svg">
+            <p>Sat</p>
+            <p class="bold">29<sup>o</sup>C</p>
+          </div>
+          <div class="subinner">
+            <img src="assets/cloud.svg">
+            <p>Sun</p>
+            <p class="bold">21<sup>o</sup>C</p>
+          </div>
+          <div class="subinner">
+            <img src="assets/cloud-snow.svg">
+            <p>Mon</p>
+            <p class="bold">08<sup>o</sup>C</p>
+          </div>
+          <div class="subinner">
+            <img src="assets/cloud-rain.svg">
+            <p>Tue</p>
+            <p class="bold">19<sup>o</sup>C</p>
+          </div>
+        </div>
+        <div class="inner3 part">
+          <img src="assets/location.svg">
+          <p class="bold">Change location</p>
+        </div>
+      </div>
+    </div>
+  </body>
+
+</html>

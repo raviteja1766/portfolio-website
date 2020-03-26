@@ -1,0 +1,111 @@
+.box-shadow {
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container-fluid {
+    margin-top: 15px;
+}
+
+.darkmode {
+    background-color: #f5f5f5;
+}
+
+.midborder {
+    border-right: 4px solid white;
+}
+
+.gmail {
+    display: inline;
+}
+
+.img-support {
+    height: 30px;
+    width: 45px;
+}
+
+.row2 {
+    height: inherit;
+    width: inherit;
+}
+
+.row2_first {
+    padding: 90px 0px 90px 10px;
+    text-align: center;
+}
+
+.rposition {
+    text-align: center;
+}
+
+.playstore {
+    height: 50px;
+    width: 150px;
+}
+
+.appstore {
+    height: 50px;
+    width: 150px;
+}
+
+.experience {
+    width: inherit;
+    height: 500px;
+
+}
+
+.negmargin {
+    margin-left: -50px;
+    margin-right: -50px;
+}
+
+.organised {
+    text-align: center;
+    width: inherit;
+    height: 150px;
+    margin-bottom: 30px
+}
+
+.ball {
+    text-align: center;
+    width: inherit;
+    height: 150px;
+    margin-bottom: 30px;
+}
+
+.pad {
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+.pad-in {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.action {
+    width: inherit;
+    height: 150px;
+}
+
+.distance {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.suspicious {
+    width: inherit;
+    height: auto;
+}
+
+.row_5 {
+    text-align: center;
+}
+
+.dimension {
+    height: 60px;
+    width: 90px;
+}
+
+.getstart {
+    text-align: center;
+}

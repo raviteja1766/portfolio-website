@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <script src="https://tap.ibhubs.in/utils/flex-item-width.js"></script>
+    <style type="text/css">
+      .flexbox {
+        display: flex;
+        justify-content: center;
+
+      }
+
+      .box1 {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .box2 {
+        width: 33%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+
+      .box {
+        border-radius: 10px;
+        background: lightyellow;
+        border: 2px solid yellow;
+        margin: 1px;
+      }
+
+      .button {
+        background-color: #4CAF50;
+        border: 3px solid green;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-weight: bold;
+        font-size: 25px;
+        margin: 4px 2px;
+        border-radius: 25px;
+        width: 70%;
+        margin-top: auto;
+        border-top: 3px solid black;
+        border-left: 3px solid black;
+      }
+
+
+
+      .content {
+        padding: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      h2 {
+        color: dodgerblue;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox">
+      <div class="box1 box">
+        <img src="assets/computer.jpg">
+        <div class="content">
+          <h2>Computer Starter Kit</h2>
+          <p>This is the best computer money can buy, if you don't have much money.</p>
+          <ul>
+            <li>Computer</li>
+            <li>Monitor</li>
+            <li>Keyboard</li>
+            <li>Mouse</li>
+          </ul>
+
+        </div>
+        <a href="#" class="button">BUY NOW</a>
+
+      </div>
+      <div class="box2 box">
+        <img src="assets/printer.png">
+        <div class="content">
+          <h2>Printer</h2>
+          <p>Only capable of printing ASCII art.</p>
+          <ul>
+            <li>Paper and ink not included</li>
+          </ul>
+        </div>
+        <a href="#" class="button">BUY NOW</a>
+
+      </div>
+    </div>
+  </body>
+
+</html>

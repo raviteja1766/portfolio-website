@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script src="../bootstrap/popper.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <style type="text/css">
+      .black {
+        background-color: black;
+      }
+
+      .invert {
+        filter: invert(.99);
+      }
+
+      .pad {
+        margin-top: 10px;
+        padding-top: 10px;
+      }
+      .color {
+        color: white;
+      }
+
+      .center {
+        color: black;
+      }
+
+      .center1 {
+        text-align: center;
+        color: black;
+      }
+
+      .tcenter {
+        text-align: center;
+      }
+
+      .grey {
+        background-color: #f5f5f5;
+      }
+
+      .mid {
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        position: absolute;
+      }
+
+      .padding {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+
+      .dimension {
+        width: 100%;
+        height: 100%;
+      }
+
+      .height {
+        height: 75%;
+      }
+
+      .border-bottom {
+        border-bottom: 1px solid black;
+      }
+
+      .load {
+        margin: 25px;
+        padding: 15px;
+        border: 1px solid black;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .b-margin {
+        margin-top: 8px;
+        margin-bottom: 8px;
+      }
+
+      .fpad {
+        padding-left: 24%;
+      }
+
+      .margin {
+        margin: 3%;
+        border: 1px solid #ccc;
+      }
+
+      /*.border {
+        border: 1px solid white;
+      }*/
+    </style>
+  </head>
+
+  <body>
+    <div class="container-fluid">
+      <div class="row  ">
+        <div class="col-xl-12 d-none d-xl-inline">
+          <nav class="navbar navbar-expand-lg navbar-light bg-dark fpad">
+            <img src="assets/github-logo.svg" class="invert">
+            <a class="nav-link dropdown-toggle " style="color:white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Why GitHUb
+            </a>
+            <a class="nav-link " href="#" style="color:white">Enterprise</a>
+            <a class="nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Explore
+            </a>
+            <a class="nav-link " href="#" style="color:white">Marketplace</a>
+            <a class="nav-link dropdown-toggle" style="color:white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            Pricing
+            </a>
+            <form class="form-inline my-2 my-lg-0 ">
+              <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+            <a class="nav-link" href="#" style="color:white">Sign in</a>
+            <button type="button" class="btn btn-outline-light ">Sign up</button>
+
+          </nav>
+        </div>
+      </div>
+      <div class="row  black pad color d-xl-none">
+        <div class="col-7 col-md-10 d-xl-none invert">
+          <img src="assets/github-logo.svg">
+        </div>
+        <div class="col-3 col-md-1 d-xl-none">
+          <button type="button" class="btn btn-outline-light ">Sign up</button>
+        </div>
+        <div class="col-2 col-md-1 d-xl-none">
+          <button type="button" class="btn btn-dark">&#9776</button>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row pad">
+        <div class="col-12 col-md-2 center1">
+          <a class="center1" href="mailto:">Explore</a>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="center" href="mailto:">Topics</a>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="center" href="mailto:">Trending</a>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="center" href="mailto:">Colections</a>
+        </div>
+        <div class="col-3 col-md-2">
+          <a class="center" href="mailto:">Events</a>
+        </div>
+      </div>
+    </div>
+    <div class="container-fluid grey">
+      <div class="row grey tcenter pad">
+        <div class="col-12 padding">
+          <h2>Topics</h2>
+        </div>
+        <div class="col-12 padding">
+          <p>Browse popular topics on GitHub</p>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row tcenter">
+        <div class="col-12 col-md-4 tcenter">
+          <div class="row margin">
+            <div class="col-4"></div>
+            <div class="col-4 tcenter padding">
+              <img src="assets/opengl.png" class="dimension">
+            </div>
+            <div class="col-12">
+              <h4>OpenGL</h4>
+              <p>OpenGL is a software interface that allows a programmer to communicate with graphics hardware.</p>
+            </div>
+          </div>
+
+        </div>
+        <div class="col-12 col-md-4 tcenter">
+          <div class="row margin">
+            <div class="col-4"></div>
+            <div class="col-4 tcenter padding">
+              <img src="assets/flask.png" class="dimension">
+            </div>
+            <div class="col-12 tcenter">
+              <h4>Flask</h4>
+              <p>Flask is a web framework for python based on the werkzueg toolkit.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 tcenter">
+          <div class="row margin">
+            <div class="col-4"></div>
+            <div class="col-4 tcenter padding">
+              <img src="assets/gradle.png" class="dimension">
+            </div>
+            <div class="col-12 tcenter">
+              <h4>Gradle</h4>
+              <p>Gradle is an open source build tool that helps team build,automate and deliver better software and faster.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-xl-8">
+          <div class="row border-bottom pad">
+            <div class="col-12">
+              <h3>All featured topics</h3>
+            </div>
+            <div class="col-2 col-md-1 grey">
+              <p class="mid">#</p>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>3D</h4>
+                  <p>3D modelling is the process of virtually developing the surface and structure of a 3D object.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                    <img src="assets/star.svg">
+                    <p style="display:inline">star</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                <img src="assets/star.svg">
+                <p style="display:inline">star</p>
+              </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 grey">
+              <p class="mid">#</p>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Ajax</h4>
+                  <p>Ajax is a technique for creating interactive web applications. </p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                    <img src="assets/star.svg">
+                    <p style="display:inline">star</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                <img src="assets/star.svg">
+                <p style="display:inline">star</p>
+              </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 grey">
+              <p class="mid">#</p>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Algorithm</h4>
+                  <p>Algorithma are self contained sequences that carry out a variety of tasks. </p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                    <img src="assets/star.svg">
+                    <p style="display:inline">star</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                <img src="assets/star.svg">
+                <p style="display:inline">star</p>
+              </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 ">
+              <img src="assets/amphp.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Amp</h4>
+                  <p>Amp is a non-blocking concurrency framework for PHP.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                    <img src="assets/star.svg">
+                    <p style="display:inline">star</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                <img src="assets/star.svg">
+                <p style="display:inline">star</p>
+              </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 ">
+              <img src="assets/android.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Android</h4>
+                  <p>Android is an operating system built by google designed for mobile devices.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                    <img src="assets/star.svg">
+                    <p style="display:inline">star</p>
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                <img src="assets/star.svg">
+                <p style="display:inline">star</p>
+              </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 ">
+              <img src="assets/angular.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Angular</h4>
+                  <p>Angular is an open source web aplication platform.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 ">
+              <img src="assets/ansible.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Ansible</h4>
+                  <p>Angular is a simple and powerful automation platform.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 grey">
+              <p class="mid">#</p>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>API</h4>
+                  <p>An API is acollection of protocols and subroutins for building software.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1">
+              <img src="assets/arduino.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Arduino</h4>
+                  <p>Arduino is an open source hardware and software company and maker community.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1">
+              <img src="assets/aspnet.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>ASP.NET</h4>
+                  <p>ASP.NET is a web framework for building modern web apps and services.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1">
+              <img src="assets/atom.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Atom</h4>
+                  <p>Atom ia a open souce text editor built with web technologies.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1">
+              <img src="assets/awesome.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Awesome Lists</h4>
+                  <p>An Awesome list is a list of awesome things curated by the community.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1">
+              <img src="assets/aws.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Amazon Web Services</h4>
+                  <p>Amazon Web Services provides on-demand cloud computing platform on a subscription basis.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1">
+              <img src="assets/azure.png" width="100%" height="75%"></img>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Azure</h4>
+                  <p>Azure is a cloud computing service created by Microsoft.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row border-bottom pad">
+            <div class="col-2 col-md-1 grey">
+              <p class="mid">#</p>
+            </div>
+            <div class="col-10 col-md-9">
+              <div class="row">
+                <div class="col-12">
+                  <h4>Mobile</h4>
+                  <p>Mobile apps, mobile OS, mobile database, & mobile testing frameworks.</p>
+                </div>
+                <div class="col-12 d-md-none">
+                  <button type="button" class="btn btn-outline-dark ">
+                      <img src="assets/star.svg">
+                      <p style="display:inline">star</p>
+                    </button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-2 d-none d-md-block">
+              <button type="button" class="btn btn-outline-dark">
+                  <img src="assets/star.svg">
+                  <p style="display:inline">star</p>
+                </button>
+            </div>
+          </div>
+          <div class="row load">
+            <div class="col-12">
+              <a href="mailto:" style="padding-top:5px; padding-bottom:5px;">Load more...</a>
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-xl-4 d-none d-xl-block">
+          <div class="row">
+            <div class="col-12">
+              <h2>Popular topics</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12">
+              <button type="button" class="btn btn-outline-primary b-margin">react</button>
+              <button type="button" class="btn btn-outline-primary b-margin">javascript</button>
+              <button type="button" class="btn btn-outline-primary b-margin">css</button>
+              <button type="button" class="btn btn-outline-primary b-margin">python</button>
+              <button type="button" class="btn btn-outline-primary b-margin">html</button>
+              <button type="button" class="btn btn-outline-primary b-margin">ecommerce</button>
+              <button type="button" class="btn btn-outline-primary b-margin">python3</button>
+              <button type="button" class="btn btn-outline-primary b-margin">ecommerce-platform</button>
+              <button type="button" class="btn btn-outline-primary b-margin">ncl-itcr</button>
+              <button type="button" class="btn btn-outline-primary b-margin">solidus-extensions</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12 d-xl-none">
+          <div class="row">
+            <div class="col-12">
+              <h2>Popular topics</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-12 col-md-4">
+              <button type="button" class="btn btn-outline-primary b-margin">react</button>
+              <button type="button" class="btn btn-outline-primary b-margin">javascript</button>
+              <button type="button" class="btn btn-outline-primary b-margin">css</button>
+              <button type="button" class="btn btn-outline-primary b-margin">python</button>
+              <button type="button" class="btn btn-outline-primary b-margin">html</button>
+              <button type="button" class="btn btn-outline-primary b-margin">ecommerce</button>
+              <button type="button" class="btn btn-outline-primary b-margin">python3</button>
+              <button type="button" class="btn btn-outline-primary b-margin">ecommerce-platform</button>
+              <button type="button" class="btn btn-outline-primary b-margin">ncl-itcr</button>
+              <button type="button" class="btn btn-outline-primary b-margin">solidus-extensions</button>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </body>
+
+</html>

@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <title>Flexbox</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <style type="text/css">
+      * {
+        font-family: arial;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        background: white;
+      }
+
+      .flexbox1 {
+        height: 10%;
+        display: flex;
+      }
+
+      .header1 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+      }
+
+      .header2 {
+
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .flexbox2 {
+        background: #f3f3f3;
+        display: flex;
+        height: 90%;
+      }
+
+      .subbox1 {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 4%;
+
+      }
+
+      .subbox2 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+      }
+
+      .subbox2>img {
+        width: 100%;
+      }
+
+      .flexbox3 {
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .flexbox4 {
+        height: 70%;
+        margin-top: 5%;
+      }
+
+      .playstore {
+        height: 50px;
+        width: 150px;
+      }
+
+      .appstore {
+        height: 50px;
+        width: 150px;
+      }
+
+      .button {
+        background-color: blue;
+        border: none;
+        color: white;
+        padding: 10px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+      }
+
+      a {
+        color: grey;
+        text-decoration: none;
+      }
+
+      .gap {
+        margin: 5px 10px;
+      }
+
+      .imgdiv {
+        display: flex;
+        justify-content: center;
+      }
+
+      .head {
+        font-size: 35px;
+      }
+
+      .flexbox5 {
+        margin-top: 2%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .flexbox6 {
+        margin-top: 2%;
+        height: 50%;
+        display: flex;
+        justify-content: space-evenly;
+      }
+
+      .special {
+        background: #f3f3f3;
+      }
+
+      .action {
+        width: 47%;
+        display: flex;
+        align-items: center;
+      }
+
+      .stay {
+        width: 47%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: #f3f3f3;
+      }
+
+      .organised {
+        width: 100%;
+      }
+
+      .flexbox7 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 5% 0px;
+      }
+
+      .flexbox8 {
+        height: 20%;
+        display: flex;
+        color: black;
+        background: #f3f3f3;
+      }
+
+      .subfirst {
+        width: 50%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .subsecond {
+        width: 50%;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+      }
+
+      .flexbox7>img {
+        width: 60px;
+        height: 40px;
+      }
+
+      .mid {
+        display: flex;
+        align-items: center;
+      }
+
+      .mt {
+        display: flex;
+        align-items: center;
+        width: 100%;
+        font-size: 30px;
+      }
+
+      .d {
+        display: none;
+
+      }
+
+      @media (max-width:767px) {
+        .d {
+          display: none;
+        }
+
+      }
+
+      @media (min-width:992px) {
+
+        .mt {
+          display: none;
+        }
+        .d {
+          display: inline;
+        }
+
+      }
+
+      @media (min-width:1200px) {
+        html,
+        body {
+          height: 120%;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexbox1">
+      <div class="header1">
+        <img src="assets/logo-gmail.png" width=50px height=30px>
+        <p class="gmail gap" style="display:inline-block; font-size:30px">Gmail</p>
+      </div>
+      <div class="header2">
+        <a href="default.asp" target="_blank" class="gap">For Work</a>
+        <a href="default.asp" target="_blank" class="gap">Sign in</a>
+        <a href="#" class="button gap">Create an account</a>
+      </div>
+    </div>
+    <div class="flexbox2">
+      <div class="subbox1">
+        <h1>Get more done with gmail</h1>
+        <p>Now more secure,smarter and easier to use-helping you save time and do more with your inbox.</p>
+        <div class="tabdesk">
+          <a href="#" class="button ">Create an account</a>
+        </div>
+      </div>
+      <div class="subbox2">
+        <img src="assets/landing-page-image-desktop.png"></img>
+      </div>
+    </div>
+    <div class="flexbox3">
+      <p class="head">Experience Gmail on any device</p>
+      <p>The ease and simplicity of Gmail,Whereever you are</p>
+      <div class="imgdiv">
+        <img src="assets/google-playstore.png" alt="playstorec.png" class="appstore">
+        <img src="assets/app-store.png" alt="appstore.png" class="appstore">
+      </div>
+    </div>
+    <div class="flexbox4" style="overflow:hidden;">
+      <img src="assets/experience-image-mobile-desktop.png" height="100%" width="120%" style="margin: 0% -10%;">
+    </div>
+    <div class="flexbox5">
+      <div class="stay">
+        <div class="first">
+          <p class="head" style="padding-left:5%">Stay organised instantly</p>
+          <p style="padding-left:5%">see what's new at a glance and what you want to read and respond to.</p>
+        </div>
+        <img src="assets/stay-organised-instantly-desktop.png" class="organised">
+      </div>
+      <div class="stay">
+        <div class="first">
+          <p class="head" style="padding-left:5%">Never drop the ball</h2>
+            <p style="padding-left:5%">Get nudges get remind you to follow up and respond to messages, so that nothing slips through the cracks</p>
+        </div>
+        <img src="assets/never-drop-the-ball-desktop.png" class="organised">
+      </div>
+    </div>
+    <div class="flexbox6">
+      <div class="action">
+        <div class="first">
+          <p class="head" style="padding-left:5%">Take action right from the inbox</p>
+          <p style="padding-left:5%">View attachments,RSVP to events,snooze messages and more without any emails.</p>
+        </div>
+      </div>
+      <div class="action">
+        <img src="assets/take-action-desktop.png" class="organised">
+      </div>
+    </div>
+    <div class="flexbox6 special">
+      <div class="action">
+        <img src="assets/avoid-suspicious-emails-desktop.png" class="organised">
+      </div>
+      <div class="action">
+        <div class="first">
+          <p class="head" style="padding-left:5%">Avoid suspicious emails</p>
+          <p style="padding-left:5%">Gmail blocks 99.9% of dangerous emails before they reach you.If we think something seems pish-y,you will get a warning.</p>
+        </div>
+      </div>
+    </div>
+    <div class="flexbox7">
+      <img src="assets/logo-gmail.png" class="dimension">
+      <p class="head">Get started with Gmail</p>
+      <a href="#" class="button">Create an account</a>
+    </div>
+    <div class="flexbox8">
+      <a href="default.asp" target="_blank" class="mt">Google</a>
+      <div class="subfirst">
+        <a href="default.asp" target="_blank" class="d">Google</a>
+        <a href="default.asp" target="_blank">Privacy</a>
+        <a href="default.asp" target="_blank">terms</a>
+        <a href="default.asp" target="_blank">AboutGoogle</a>
+        <a href="default.asp" target="_blank">GoogleProducts</a>
+        <a href="default.asp" target="_blank">Privacy</a>
+      </div>
+      <div class="subsecond">
+        <p class="gap mid"><img src="assets/question-mark.png">Help</p>
+        <a href="default.asp" target="_blank" class="gap">English(India)</a>
+      </div>
+    </div>
+  </body>
+
+</html>

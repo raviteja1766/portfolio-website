@@ -1,0 +1,31 @@
+body {
+  background-color: #e0e0e0;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.item {
+  height: 100px;
+  flex-grow: 1;
+}
+
+.i1 {
+  background: orange;
+  width: 576px;
+}
+
+.i2 {
+  background: saddlebrown;
+  width: 320px;
+}
+
+.i3 {
+  background: green;
+  width: 414px;
+}

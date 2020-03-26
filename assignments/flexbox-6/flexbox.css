@@ -1,0 +1,52 @@
+body {
+  background-color: #e0e0e0;
+  margin: 0px;
+  font-family: sans-serif;
+}
+
+.flexbox {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex-grow: 1;
+}
+
+.header {
+  background: orange;
+  flex-basis: 1920px;
+}
+
+.navigation {
+  flex-basis: 200px;
+  background: #055605;
+  flex-grow: 1;
+}
+
+.main {
+  flex-basis: 800px;
+  background: white;
+  flex-grow: 4;
+}
+
+.article {
+  margin: 15px;
+  padding: 15px;
+  border: 2px solid black;
+}
+
+.part {
+  padding: 15px;
+  border: 2px dotted black;
+  margin-bottom: 15px;
+}
+
+.footer {
+  flex-basis: 1920px;
+  background: #afb0b1;
+}
+
+p {
+  text-align: center;
+}

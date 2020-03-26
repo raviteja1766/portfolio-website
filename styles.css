@@ -1,0 +1,34 @@
+            body{
+                background-color:white;
+            }
+            .parentofdiv{
+                margin:0%;
+            }
+            .type1{
+                float:left;
+                display:inline-block;
+                width:55%;
+                border:2px solid black;
+            }
+            .type2{
+                float:left;
+                display:inline-block;
+                width:43%;
+                border:2px solid black;
+            }
+            img{
+                width:430px;
+                height:420px;
+                
+            }
+            .part{
+                font-weight:400px;
+                width:300px;
+                font-size:62px;
+                margin-top:0%;
+                margin-bottom:0%;
+            }
+            .part1{
+                width:300px;
+                margin-top:0%;
+            }

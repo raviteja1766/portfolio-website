@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <link rel="stylesheet" href="../bootstrap/bootstrap.min.css" />
+    <script src="../bootstrap/jquery.min.js"></script>
+    <script src="../bootstrap/popper.min.js"></script>
+    <script src="../bootstrap/bootstrap.min.js"></script>
+    <style type="text/css">
+      * {
+        font-family: arial;
+      }
+
+      html,
+      body {
+        height: 100%;
+      }
+
+      body {
+        background: white;
+      }
+
+      .flexboxmd1 {
+        height: 11%;
+        display: flex;
+        align-items: center;
+      }
+
+      .header1 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        align-items: center;
+      }
+
+      .header2 {
+        height: 100%;
+        width: 50%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+      }
+
+      .flexbox2 {
+        background: #f3f3f3;
+        display: flex;
+        height: 90%;
+      }
+
+      .subbox1 {
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-left: 4%;
+
+      }
+
+      .subbox2 {
+        width: 50%;
+        display: flex;
+        align-items: center;
+      }
+
+      .subbox2>img {
+        width: 100%;
+      }
+
+      .flexbox3 {
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .playstore {
+        height: 50px;
+        width: 150px;
+      }
+
+      .appstore {
+        height: 50px;
+        width: 150px;
+      }
+
+
+
+      a {
+        color: grey;
+        text-decoration: none;
+      }
+
+      .gap {
+        margin: 5px 10px;
+      }
+
+      .flexboxmb1 {
+        height: 11%;
+      }
+
+      .part1 {
+        height: 60%;
+        display: flex;
+        align-items: center;
+      }
+
+      .end {
+        margin-left: auto;
+      }
+
+      .part2 {
+        height: 40%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+      }
+
+      .flexbox2 {
+        height: 90%;
+        background: #f3f3f3;
+        display: flex;
+        flex-direction: column;
+      }
+
+      .subbox1 {
+        height: 29%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .subbox1>p {
+        text-align: center;
+      }
+
+      .subbox2 {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+      }
+
+      .subbox2 img {
+        width: 75%;
+      }
+
+      .flexbox3 {
+        height: 30%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .playstore {
+        height: 50px;
+        width: 150px;
+      }
+
+      .appstore {
+        height: 50px;
+        width: 150px;
+      }
+
+      a {
+        color: grey;
+        text-decoration: none;
+      }
+
+      .gap {
+        margin: 5px 10px;
+      }
+
+      .imgdiv {
+        display: flex;
+        justify-content: center;
+      }
+
+      .flexbox4 {
+        height: 40%;
+      }
+
+      .flexbox5 {
+        margin-top: 2%;
+      }
+
+      .stay {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        width: 92%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        background: #f3f3f3;
+      }
+
+      .organised {
+        width: 100%;
+        margin-top: 3%;
+        margin-bottom: 4%;
+      }
+
+      .flexbox6 {
+        margin-top: 2%;
+      }
+
+      .action {
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-bottom: 4%;
+        width: 92%;
+        display: flex;
+        align-items: center;
+      }
+
+
+
+      @media (min-width:576px) {
+        .flexbox2 {
+          height: 100%;
+        }
+        .subbox1 {
+          height: 25%;
+          justify-content: flex-end;
+
+        }
+        .subbox2 {
+          height: 75%;
+          justify-content: space-around;
+        }
+        .subbox2 img {
+          width: 80%;
+        }
+        .flexbox4 {
+          height: 50%;
+        }
+
+      }
+
+      @media (max-width:767px) {
+
+        .flexboxmd1 {
+          display: none;
+        }
+        .md {
+          display: none;
+        }
+        .head {
+          font-size: 30px;
+        }
+      }
+
+      @media (min-width:768px) {
+        .flexbox4 {
+          height: 70%;
+        }
+
+        .head {
+          font-size: 35px;
+        }
+
+        .flexboxmb1 {
+          display: none;
+        }
+        .mb {
+          display: none;
+        }
+        .flexbox2 {
+          display: flex;
+          flex-direction: row;
+          height: 70%;
+        }
+
+        .subbox1 {
+          height: auto;
+          width: 45%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          padding-left: 4%;
+
+        }
+        .subbox1>p {
+          text-align: left;
+        }
+
+        .subbox2 {
+          height: auto;
+          width: 55%;
+          display: flex;
+          flex-direction: center;
+          justify-content: center;
+          align-items: center;
+        }
+        .subbox2 img {
+          width: 100%;
+        }
+
+        .flexbox5 {
+          margin-top: 2%;
+          display: flex;
+          justify-content: space-evenly;
+        }
+
+        .stay {
+          margin: 0%;
+          width: 47%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          background: #f3f3f3;
+        }
+
+        .flexbox6 {
+          margin-top: 2%;
+          display: flex;
+          justify-content: space-evenly;
+        }
+        .action {
+          margin: 0%;
+          width: 47%;
+          display: flex;
+          align-items: center;
+        }
+
+      }
+
+      @media (min-width:992px) {
+        .flexbox2 {
+          height: 80%;
+        }
+        .flexbox4 {
+          height: 75%;
+        }
+      }
+
+      @media (min-width:1200px) {
+        .flexbox4 {
+          height: 95%;
+        }
+        .flexbox2 {
+          height: auto;
+        }
+        .subbox2 img {
+          height: inherit;
+          width: 85%;
+        }
+        .subbox1 {
+          height: inherit;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="flexboxmd1">
+      <div class="header1">
+        <img src="assets/logo-gmail.png" width=50px height=30px>
+        <p class="gmail " style="display:inline-block; font-size:30px; color:lightgrey;">Gmail</p>
+      </div>
+      <div class="header2">
+        <a href="default.asp" target="_blank" class="gap">For Work</a>
+        <a href="default.asp" target="_blank" class="gap">Sign in</a>
+        <button type="button" class="btn btn-primary">Create an account</button>
+      </div>
+    </div>
+    <div class="flexboxmb1">
+      <div class="part1">
+        <img src="assets/logo-gmail.png" width=50px height=30px>
+        <p class="gmail gap" style="display:inline-block; font-size:30px">Gmail</p>
+        <button type="button" class="btn btn-primary end">Get Gmail</button>
+      </div>
+      <div class="part2">
+        <a href="default.asp" target="_blank" class="gap">For Work</a>
+        <a href="default.asp" target="_blank" class="gap">Sign in</a>
+      </div>
+    </div>
+    <div class="flexbox2">
+      <div class="subbox1">
+        <p class="head">Get more done with gmail</p>
+        <p>Now more secure,smarter and easier to use-helping you save time and do more with your inbox.</p>
+        <button type="button" class="btn btn-primary md">Create an account</button>
+      </div>
+      <div class="subbox2">
+        <img src="assets/landing-page-image-desktop.png" class="md">
+        <img src="assets/landing-page-image-mobile.png" class="mb">
+        <button type="button" class="btn btn-primary mb" style="">Get Gmail</button>
+      </div>
+    </div>
+    <div class="flexbox3">
+      <p class="head">Experience Gmail on any device</p>
+      <p>The ease and simplicity of Gmail,Whereever you are</p>
+      <div class="imgdiv">
+        <img src="assets/google-playstore.png" alt="playstorec.png" class="appstore">
+        <img src="assets/app-store.png" alt="appstore.png" class="appstore">
+      </div>
+    </div>
+    <div class="flexbox4" style="overflow:hidden;">
+      <img src="assets/experience-image-mobile-desktop.png" height="100%" width="120%" style="margin: 0% -10%;">
+    </div>
+    <div class="flexbox5">
+      <div class="stay">
+        <div class="first">
+          <p class="head" style="padding-left:5%">Stay organised instantly</p>
+          <p style="padding-left:5%">see what's new at a glance and what you want to read and respond to.</p>
+        </div>
+        <img src="assets/stay-organised-instantly-desktop.png" class="organised">
+      </div>
+      <div class="stay stay1">
+        <div class="first">
+          <p class="head" style="padding-left:5%">Never drop the ball</h2>
+            <p style="padding-left:5%">Get nudges get remind you to follow up and respond to messages, so that nothing slips through the cracks</p>
+        </div>
+        <img src="assets/never-drop-the-ball-desktop.png" class="organised">
+      </div>
+    </div>
+    <div class="flexbox6">
+      <div class="action">
+        <div class="first">
+          <p class="head" style="padding-left:5%">Take action right from the inbox</p>
+          <p style="padding-left:5%">View attachments,RSVP to events,snooze messages and more without any emails.</p>
+        </div>
+      </div>
+      <div class="action action1">
+        <img src="assets/take-action-desktop.png" class="organised">
+      </div>
+    </div>
+  </body>
+
+</html>
